@@ -9,14 +9,14 @@ root = Tk()
 root.geometry('350x350')
 root.resizable(0, 0)
 root.config(bg = 'black')
-root.title("Leleo's Tabajara - Texto para Fala")
+root.title("Leleo's Tabajara - Síntese de fala")
 
 
 
 #Cabeçario
 
-Label(root, text = "Texto para Fala", font = "Arial 20 bold", bg = 'white smoke').pack()
-Label(root, text = "Leleo's Tabajara - Texto para Fala ", font = "Arial 15 bold", bg = "White smoke").pack(side = BOTTOM)
+Label(root, text = "Síntese de fala", font = "Arial 20 bold", bg = 'white smoke').pack()
+Label(root, text = "Leleo's Tabajara - Síntese de fala ", font = "Arial 15 bold", bg = "White smoke").pack(side = BOTTOM)
 
 
 #Label 
